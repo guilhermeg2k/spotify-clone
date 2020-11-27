@@ -1,0 +1,99 @@
+#home {
+  position: relative;
+  top: 54px;
+}
+#free-3-months-container {
+  background-color: #ff4632;
+  width: 100%;
+}
+#free-3-months {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 35px 15px;
+  padding-top: 80px;
+  background-color: #ff4632;
+}
+#f3m-ballons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#f3m-ballons img {
+  width: 132px;
+  height: 132px;
+  margin: 16px 0;
+}
+#f3m-ballons p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+#f3m-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#f3m-text h1 {
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.04em;
+}
+#f3m-text-desc {
+  margin: 16px 0;
+  font-size: 14px;
+}
+#f3m-btn {
+  background-color: black;
+  color: white;
+  border-radius: 500px;
+  width: 100%;
+  text-align: center;
+  padding: 17px 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  margin-top: 16px;
+}
+#f3m-btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+#f3m-sp {
+  display: none;
+}
+#f3m-agreements {
+  width: 100%;
+  margin: 16px 0;
+  font-size: 13px;
+  height: 16px;
+}
+@media (min-width: 768px) {
+  #free-3-months {
+    width: 750px;
+    margin: 0 auto;
+  }
+  #f3m-ballons img {
+    width: 400px;
+    height: 400px;
+  }
+  #f3m-text-desc {
+    margin-bottom: 0px;
+    font-size: 18px;
+  }
+  #f3m-text h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+@media (min-width: 992px) {
+  #home {
+    top: 80px;
+  }
+}

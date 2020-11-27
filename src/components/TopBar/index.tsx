@@ -33,7 +33,7 @@ export default function TopBar() {
           <a href="#">Entrar</a>
         </div>
         <div id="mobile-menu">
-          <FaBars size={"22"} />
+          <FaBars size={22} />
         </div>
       </div>
     </div>
