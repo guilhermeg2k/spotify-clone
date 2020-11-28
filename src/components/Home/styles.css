@@ -33,6 +33,7 @@
 }
 #f3m-text {
   display: flex;
+  align-items: center;
   flex-direction: column;
   width: 100%;
 }
@@ -64,6 +65,7 @@
   background-color: white;
   color: black;
   cursor: pointer;
+  transform: scaleX(1.02);
 }
 #f3m-sp {
   display: none;
@@ -72,11 +74,77 @@
   width: 100%;
   margin: 16px 0;
   font-size: 13px;
-  height: 16px;
+}
+#f3m-agreements a {
+  text-decoration: underline;
+}
+#takeover-container {
+  background-image: url("https://www.scdn.co/i/projectRamses/LiE_circles-tablet.svg");
+  color: #1ed760;
+  background-color: #2d46b9;
+  background-repeat: no-repeat;
+  background-size: auto 170%;
+  background-position: center center;
+  width: 100%;
+}
+#takeover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 464px;
+  padding: 32px 15px 24px 15px;
+}
+#takeover h1 {
+  font-size: 30px;
+  line-height: 32px;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+#to-sp {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 16px;
+  margin-bottom: 48px;
+}
+#to-desc {
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  max-width: 264px;
+  margin-bottom: 16px;
+}
+#to-btn {
+  background-color: #1ed760;
+  color: #2d46b9;
+  vertical-align: center;
+  text-align: center;
+  width: 96%;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 500px;
+  padding: 16px 48px 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#to-btn:hover {
+  background-color: white;
+  transform: scaleX(1.02);
+  cursor: pointer;
+}
+
+@media (min-width: 410px) {
+  #takeover-container {
+    background-image: url("https://www.scdn.co/i/projectRamses/LiE_circles-tablet.svg");
+  }
 }
 @media (min-width: 768px) {
   #free-3-months {
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto;
   }
   #f3m-ballons img {
@@ -91,9 +159,115 @@
     font-size: 60px;
     line-height: 60px;
   }
+  #f3m-btn {
+    width: 308px;
+  }
+  #to-sp {
+    margin-bottom: 196px;
+  }
+  #takeover {
+    min-height: 800px;
+    padding-top: 40px;
+  }
+  #takeover h1 {
+    margin-bottom: 32px;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+  }
+  #to-desc {
+    max-width: 604px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+  #to-btn {
+    width: auto;
+  }
 }
 @media (min-width: 992px) {
   #home {
     top: 80px;
+  }
+  #free-3-months {
+    max-width: 970px;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+  #f3m-text {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-right: 56px;
+  }
+  #f3m-btn {
+    margin-top: 35px;
+  }
+  #f3m-sp {
+    display: block;
+    margin: 14px 0 32px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+  }
+  #f3m-b-sp {
+    display: none;
+  }
+  #f3m-agreements {
+    margin: 32px 0;
+    max-width: 630px;
+    line-height: 16px;
+  }
+  #f3m-ballons img {
+    padding-left: 56px;
+  }
+  #takeover {
+    align-items: flex-start;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 606px;
+    padding-top: 72px;
+  }
+  #to-sp {
+    margin-bottom: 32px;
+  }
+  #takeover-container {
+    background-size: auto 100%;
+    background-position: 65% center;
+    background-image: url("https://www.scdn.co/i/projectRamses/LiE_circles.svg");
+  }
+  #takeover h1 {
+    max-width: 512px;
+  }
+  #to-desc {
+    text-align: left;
+  }
+}
+@media (min-width: 1200px) {
+  #free-3-months-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  #free-3-months {
+    max-width: 1140px;
+    margin: 0 0;
+    padding-top: 70px;
+  }
+  #f3m-ballons img {
+    width: 500px;
+    height: 500px;
+    margin: 0 0;
+    object-fit: contain;
+  }
+  #takeover-container {
+    background-position: right center;
+    display: flex;
+    justify-content: center;
+  }
+  #takeover {
+    width: 1140px;
   }
 }
