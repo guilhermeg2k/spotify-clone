@@ -82,7 +82,7 @@ function Footer() {
           />
         </div>
         <div id="bottom-links">
-          <div>
+          <div id="bl-links">
             <ul>
               <li>Legal</li>
               <li>Centro de Privacidade</li>
@@ -91,7 +91,7 @@ function Footer() {
               <li>Sobre anúncios</li>
             </ul>
           </div>
-          <div>
+          <div id="bl-sp-mark">
             <span>© 2020 Spotify AB</span>
           </div>
         </div>

@@ -7,10 +7,7 @@ export default function TopBar() {
     <div className="container fixed">
       <div id="top-bar" className="white">
         <div id="logo">
-          <a
-            href="https://www.spotify.com/br/"
-            data-tracking='{"category": "menu", "action": "spotify-logo"}'
-          >
+          <Link to="/">
             <span>
               <svg
                 viewBox="0 0 63 20"
@@ -22,7 +19,7 @@ export default function TopBar() {
                 </g>
               </svg>{" "}
             </span>
-          </a>
+          </Link>
         </div>
         <div id="top-bar-links">
           <Link to="/premium"> Premium </Link>

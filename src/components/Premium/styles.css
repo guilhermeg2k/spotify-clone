@@ -1,0 +1,294 @@
+#premium {
+  position: relative;
+  top: 54px;
+}
+#p-free-3-months-container {
+  width: 100%;
+  background: rgba(0, 0, 0, 0)
+    url("https://campaigns-test.scdn.co/images/holiday-2020-balloons.png")
+    no-repeat scroll center calc(100% - 30px) / 290px;
+  padding-bottom: 350px;
+  background-color: #ff4632;
+}
+#p-free-3-months {
+  display: flex;
+  margin: 0;
+  flex-direction: column-reverse;
+  text-align: left;
+  padding: 80px 15px 15px 15px;
+  color: rgb(25, 20, 20);
+}
+#p-f3m-ballons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#p-f3m-ballons img {
+  width: calc(100% - 30px) / 290px;
+  height: 400px;
+  margin: 16px 0;
+}
+#p-f3m-ballons p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+#p-f3m-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#p-f3m-text h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 900;
+  max-width: 100%;
+  letter-spacing: 0.25px;
+  font-size: calc(-24px + 15vw);
+}
+#p-f3m-text-desc {
+  margin: 16px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+#p-f3m-btn {
+  background-color: black;
+  color: white;
+  border-radius: 500px;
+  width: 100%;
+  text-align: center;
+  padding: 17px 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+#p-f3m-btn:hover {
+  background-color: #404040;
+  cursor: pointer;
+  transform: scale(1.04);
+}
+#p-f3m-plans-btn {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  border: 2px solid black;
+  border-radius: 500px;
+  width: 100%;
+  text-align: center;
+  padding: 17px 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+#p-f3m-plans-btn:hover {
+  background-color: rgb(255, 116, 101);
+  cursor: pointer;
+  transform: scale(1.04);
+}
+#p-f3m-agreements {
+  width: 100%;
+  margin: 16px 0;
+  font-size: 13px;
+}
+#p-f3m-agreements a {
+  text-decoration: underline;
+}
+#benefits-container {
+  width: 100%;
+  padding-top: max(35px, env(safe-area-inset-top));
+  padding-left: max(15px, env(safe-area-inset-left));
+  padding-bottom: max(35px, env(safe-area-inset-bottom));
+  padding-right: max(15px, env(safe-area-inset-right));
+}
+#benefits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#benefits h1 {
+  font-size: 32px;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+  font-weight: 900;
+  color: rgb(34, 35, 38);
+  margin-bottom: 30px;
+}
+#benefits-desc {
+  width: 100%;
+}
+#benefits ul {
+  list-style: none;
+  width: 100%;
+}
+#benefits li {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.b-desc-img {
+  display: inline-block;
+  margin-right: 20px;
+  width: 142px;
+  height: 142px;
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-grow: 1;
+}
+.b-desc-img#img-1 {
+  background-image: url("https://campaigns.scdn.co/images/benefit_1.png");
+}
+.b-desc-img#img-2 {
+  background-image: url("https://campaigns.scdn.co/images/Benefit_2.png");
+}
+.b-desc-img#img-3 {
+  background-image: url("https://campaigns.scdn.co/images/benefit_3.png");
+}
+.b-desc-img#img-4 {
+  background-image: url("https://campaigns.scdn.co/images/benefit_4.png");
+}
+.b-desc {
+  flex-grow: 1;
+  width: 100%;
+  margin: 16px 0;
+}
+.b-desc h2 {
+  color: rgb(34, 35, 38);
+  font-size: 21px;
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 480px) {
+  #p-free-3-months-container {
+    padding-bottom: 500px;
+    background: rgba(0, 0, 0, 0)
+      url("https://campaigns-test.scdn.co/images/holiday-2020-balloons.png")
+      no-repeat scroll center calc(100% - 75px) / 450px;
+    background-color: #ff4632;
+  }
+  #p-f3m-text h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 768px) {
+  #p-free-3-months {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  #p-f3m-ballons img {
+    width: 400px;
+    height: 400px;
+  }
+  #p-f3m-text-desc {
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-size: 24px;
+    width: 500px;
+  }
+  #p-f3m-text h1 {
+    font-size: 56px;
+  }
+  #p-f3m-btn {
+    width: 308px;
+    margin-right: 8px;
+    margin-bottom: 0;
+  }
+  #p-f3m-plans-btn {
+    width: 308px;
+    margin-bottom: 0;
+  }
+  #p-f3m-agreements {
+    margin-top: 30px;
+  }
+  #p-f3m-btns {
+    margin-top: 30px;
+    display: flex;
+  }
+  #benefits-container {
+    padding-left: max(15px, env(safe-area-inset-left));
+    padding-bottom: max(75px, env(safe-area-inset-bottom));
+    padding-right: max(15px, env(safe-area-inset-right));
+    padding-top: max(75px, env(safe-area-inset-top));
+  }
+  #benefits {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 750px;
+  }
+  #benefits h1 {
+    font-size: 48px;
+    margin-bottom: 72px;
+  }
+  #benefits ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #benefits li {
+    width: 50%;
+    flex-grow: 1;
+  }
+}
+@media (min-width: 992px) {
+  #premium {
+    top: 80px;
+  }
+  #p-free-3-months-container {
+    padding-bottom: 0px;
+    background: rgba(0, 0, 0, 0)
+      url("https://campaigns-test.scdn.co/images/holiday-2020-balloons.png")
+      no-repeat scroll calc(50% + 320px) calc(0% + 135px) / 250px;
+    background-color: #ff4632;
+  }
+  #p-free-3-months {
+    max-width: 970px;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+  #p-f3m-text {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-right: 56px;
+  }
+  #p-f3m-text h1 {
+    width: 600px;
+  }
+  #p-f3m-agreements {
+    margin: 32px 0;
+    max-width: 630px;
+    line-height: 16px;
+  }
+  #p-f3m-ballons img {
+    padding-left: 56px;
+  }
+  #benefits {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  #p-free-3-months-container {
+    background: rgba(0, 0, 0, 0)
+      url("https://campaigns-test.scdn.co/images/holiday-2020-balloons.png")
+      no-repeat scroll calc(50% + 390px) center / 340px;
+    background-color: #ff4632;
+  }
+  #p-free-3-months {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 70px 0 15px 0;
+  }
+  #p-f3m-ballons img {
+    width: 500px;
+    height: 500px;
+    margin: 0 0;
+    object-fit: contain;
+  }
+}

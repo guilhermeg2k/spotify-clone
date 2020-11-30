@@ -21,7 +21,7 @@ function Home() {
             <div id="f3m-btn">Ganhe 3 meses grátis</div>
             <div id="f3m-agreements">
               Somente para o plano Individual. Depois, apenas R$ 16,90/mês.
-              Oferta indisponível para usuários que já experimentaram j
+              Oferta indisponível para usuários que já experimentaram o
               Premium.&nbsp;
               <a href="#">Sujeita a Termos e Condições.</a> A oferta termina em
               31 de dez de 2020.
