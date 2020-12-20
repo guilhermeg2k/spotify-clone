@@ -5,7 +5,7 @@
 #p-free-3-months-container {
   width: 100%;
   background: rgba(0, 0, 0, 0)
-    url("https://campaigns-test.scdn.co/images/holiday-2020-balloons.png")
+    url('https://campaigns-test.scdn.co/images/holiday-2020-balloons.png')
     no-repeat scroll center calc(100% - 30px) / 290px;
   padding-bottom: 350px;
   background-color: #ff4632;
@@ -143,16 +143,16 @@
   flex-grow: 1;
 }
 .b-desc-img#img-1 {
-  background-image: url("https://campaigns.scdn.co/images/benefit_1.png");
+  background-image: url('https://campaigns.scdn.co/images/benefit_1.png');
 }
 .b-desc-img#img-2 {
-  background-image: url("https://campaigns.scdn.co/images/Benefit_2.png");
+  background-image: url('https://campaigns.scdn.co/images/Benefit_2.png');
 }
 .b-desc-img#img-3 {
-  background-image: url("https://campaigns.scdn.co/images/benefit_3.png");
+  background-image: url('https://campaigns.scdn.co/images/benefit_3.png');
 }
 .b-desc-img#img-4 {
-  background-image: url("https://campaigns.scdn.co/images/benefit_4.png");
+  background-image: url('https://campaigns.scdn.co/images/benefit_4.png');
 }
 .b-desc {
   flex-grow: 1;
@@ -168,11 +168,11 @@
 
 #plans-container {
   width: 100%;
-  padding-top: max(75px,env(safe-area-inset-top));
+  padding-top: max(75px, env(safe-area-inset-top));
   padding-left: max(15px, env(safe-area-inset-left));
   padding-bottom: max(35px, env(safe-area-inset-bottom));
   padding-right: max(15px, env(safe-area-inset-right));
-  background: rgb(248, 248, 248) none repeat scroll 0% 0%;;
+  background: rgb(248, 248, 248) none repeat scroll 0% 0%;
 }
 
 #plans {
@@ -189,7 +189,7 @@
   color: rgb(34, 35, 38);
 }
 
-#plans > p{
+#plans > p {
   margin: 10px 0px;
 }
 
@@ -197,7 +197,7 @@
   #p-free-3-months-container {
     padding-bottom: 500px;
     background: rgba(0, 0, 0, 0)
-      url("https://campaigns-test.scdn.co/images/holiday-2020-balloons.png")
+      url('https://campaigns-test.scdn.co/images/holiday-2020-balloons.png')
       no-repeat scroll center calc(100% - 75px) / 450px;
     background-color: #ff4632;
   }
@@ -270,7 +270,7 @@
   #p-free-3-months-container {
     padding-bottom: 0px;
     background: rgba(0, 0, 0, 0)
-      url("https://campaigns-test.scdn.co/images/holiday-2020-balloons.png")
+      url('https://campaigns-test.scdn.co/images/holiday-2020-balloons.png')
       no-repeat scroll calc(50% + 320px) calc(0% + 135px) / 250px;
     background-color: #ff4632;
   }
@@ -303,7 +303,7 @@
 @media (min-width: 1200px) {
   #p-free-3-months-container {
     background: rgba(0, 0, 0, 0)
-      url("https://campaigns-test.scdn.co/images/holiday-2020-balloons.png")
+      url('https://campaigns-test.scdn.co/images/holiday-2020-balloons.png')
       no-repeat scroll calc(50% + 390px) center / 340px;
     background-color: #ff4632;
   }
@@ -318,26 +318,26 @@
     margin: 0 0;
     object-fit: contain;
   }
-  #benefits-desc{
+  #benefits-desc {
     width: 1170px;
   }
-  #benefits ul{
+  #benefits ul {
     flex-wrap: nowrap;
   }
-  #benefits li{
+  #benefits li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .b-desc{
+  .b-desc {
     flex-grow: 1;
     width: auto;
     text-align: center;
   }
-  .b-desc-img{
+  .b-desc-img {
     margin: 0;
   }
-  #plans-overview{
+  #plans-overview {
     display: flex;
     max-width: 100%;
     width: 1170px;

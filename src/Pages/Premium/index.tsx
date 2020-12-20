@@ -1,7 +1,7 @@
-import React from "react";
-import fakeData from "../../fakeData";
+import React from 'react';
+import fakeData from '../../fakeData';
 import Plan from './components/Plan';
-import "./styles.css";
+import './styles.css';
 
 function Premium() {
   return (
@@ -68,7 +68,10 @@ function Premium() {
       <div id="plans-container">
         <section id="plans">
           <h1>Escolha seu plano Premium</h1>
-          <p>Ouça sem limites no seu celular, alto-falante e em outros dispositivos.</p>
+          <p>
+            Ouça sem limites no seu celular, alto-falante e em outros
+            dispositivos.
+          </p>
           <div id="plans-overview">
             {fakeData.plans.map((plan, index) => (
               <Plan

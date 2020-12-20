@@ -1,0 +1,136 @@
+#support {
+  position: relative;
+  top: 54px;
+}
+#help-container {
+  background: url(https://support.scdn.co/web/_next/static/assets/1aac33f/search-mobile.webp)
+    top/100% no-repeat #1c2963;
+  padding: 0 8px;
+}
+#help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+#help > h1 {
+  color: white;
+  font-size: 48px;
+  letter-spacing: -1.75px;
+  line-height: 56px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  padding: 24px 32px;
+  text-align: center;
+}
+
+#help-search-box {
+  width: 100%;
+  height: 44px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(179, 179, 179) 0px 0px 0px 1px inset;
+  color: rgb(24, 24, 24);
+  border-radius: 4px;
+  padding: 10px 0 10px 20px;
+  display: flex;
+  margin-bottom: 24px;
+  align-items: center;
+}
+#help-input-icon {
+  margin-right: 10px;
+  margin-top: 3px;
+}
+#help-input-icon svg {
+  margin-top: 5px;
+  color: rgb(179, 179, 179);
+  stroke-width: 0;
+}
+
+#help-input-close svg {
+  margin-top: 5px;
+  margin-right: 12px;
+  stroke-width: 0;
+  cursor: pointer;
+}
+
+#help-field {
+  width: 95%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(24, 24, 24);
+}
+
+#help-best-solutions {
+  padding: 10px 0 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 744px;
+  padding: 10px 0 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#help-best-solutions h2 {
+  margin: 8px 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+
+#help-best-solutions a {
+  font-size: 18px;
+}
+.hbs-links {
+  margin-bottom: 15px;
+}
+.hbs-links > h2 {
+  display: none;
+}
+@media (min-width: 768px) {
+  #help-container {
+    background-image: url(https://support.scdn.co/web/_next/static/assets/1aac33f/search-desktop.webp);
+  }
+  #help {
+    width: 744px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #help h1 {
+    font-size: 64px;
+    padding: 80px 0 40px;
+    line-height: 72px;
+  }
+  #help-search-box {
+    height: 52px;
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) {
+  #support {
+    top: 80px;
+  }
+  #help-best-solutions {
+    flex-direction: row;
+    justify-content: center;
+    max-width: 992px;
+    padding-bottom: 45px;
+  }
+  #help-best-solutions > h2 {
+    display: none;
+  }
+  .hbs-links {
+    text-align: center;
+    flex: 1 1;
+  }
+  .hbs-links h2 {
+    display: block;
+  }
+}

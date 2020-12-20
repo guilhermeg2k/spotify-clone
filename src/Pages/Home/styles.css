@@ -79,7 +79,7 @@
   text-decoration: underline;
 }
 #takeover-container {
-  background-image: url("https://www.scdn.co/i/projectRamses/LiE_circles-tablet.svg");
+  background-image: url('https://www.scdn.co/i/projectRamses/LiE_circles-tablet.svg');
   color: #1ed760;
   background-color: #2d46b9;
   background-repeat: no-repeat;
@@ -139,7 +139,7 @@
 
 @media (min-width: 410px) {
   #takeover-container {
-    background-image: url("https://www.scdn.co/i/projectRamses/LiE_circles-tablet.svg");
+    background-image: url('https://www.scdn.co/i/projectRamses/LiE_circles-tablet.svg');
   }
 }
 @media (min-width: 768px) {
@@ -236,7 +236,7 @@
   #takeover-container {
     background-size: auto 100%;
     background-position: 65% center;
-    background-image: url("https://www.scdn.co/i/projectRamses/LiE_circles.svg");
+    background-image: url('https://www.scdn.co/i/projectRamses/LiE_circles.svg');
   }
   #takeover h1 {
     max-width: 512px;

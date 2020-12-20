@@ -1,9 +1,10 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import TopBar from "./components/TopBar";
-import Home from "../Home";
-import Premium from "../Premium";
-import Footer from "./components/Footer";
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import TopBar from './components/TopBar';
+import Home from '../Home';
+import Premium from '../Premium';
+import Support from '../Support';
+import Footer from './components/Footer';
 
 function Layout() {
   return (
@@ -15,6 +16,9 @@ function Layout() {
         </Route>
         <Route path="/premium">
           <Premium />
+        </Route>
+        <Route path="/support">
+          <Support />
         </Route>
       </Switch>
       <Footer />
