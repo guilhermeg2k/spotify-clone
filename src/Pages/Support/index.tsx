@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
-import { MdClose } from 'react-icons/md';
+import { MdClose, MdKeyboardArrowDown } from 'react-icons/md';
+import LinksBox from './components/LinksBox';
+
 import './styles.css';
 function Support() {
   const [inputText, setInputText] = useState('');
@@ -51,10 +53,52 @@ function Support() {
           </div>
         </section>
       </div>
-      <div id="help-links-container">
-
+      <div id="help-links">
+        <div id="help-links-container">
+          <LinksBox
+            title="Conta e pagamento"
+            links={[
+              "Ajuda com a conta",
+              "Ajuda com os pagamentos",
+              "Opções ded assinatura",
+              "Premium Familiar",
+              "Premium Duo",
+              "Premium Universitário",
+              "Privacidade e segurança",
+              "Para Anunciantes"
+            ]}
+          />
+          <LinksBox
+            title="Usando o Spotify"
+            links={[
+              "Tutoriais em Vídeo",
+              "Primeiros passos",
+              "Playlists",
+              "Recursos",
+              "Sistema e configurações",
+              "Soluções de problemas"
+            ]} />
+          <LinksBox
+            title="Ouça onde quiser"
+            links={[
+              "Alto-falantes",
+              "TVs",
+              "Carros",
+              "Videogames",
+              "Smartwatches",
+              "Smart displays",
+              "Assistentes de voz"
+            ]} />
+        </div>
       </div>
-    </div>
+      <div id="help-community">
+        <h2>Visite a Comunidade</h2>
+        <span>Tem uma pergunta? Encontre respostas na nossa Comunidade de fãs especialistas do mundo todo!</span>
+        <div id="help-community-btn">
+          Encontrar respostas
+        </div>
+      </div>
+    </div >
   );
 }
 
