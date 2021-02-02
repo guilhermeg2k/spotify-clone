@@ -1,14 +1,25 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link, useLocation } from 'react-router-dom';
 import TopBar from './components/TopBar';
+import Footer from './components/Footer';
 import Home from '../Home';
 import Premium from '../Premium';
 import Support from '../Support';
-import Footer from './components/Footer';
+import Download from '../Download';
+
 
 function Layout() {
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+    return null;
+  }
+
   return (
     <Router>
+      <ScrollToTop />
       <TopBar />
       <Switch>
         <Route path="/" exact>
@@ -19,6 +30,9 @@ function Layout() {
         </Route>
         <Route path="/support">
           <Support />
+        </Route>
+        <Route path="/download">
+          <Download />
         </Route>
       </Switch>
       <Footer />

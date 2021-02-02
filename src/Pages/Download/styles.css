@@ -1,0 +1,246 @@
+#download {
+  position: relative;
+  top: 54px;
+}
+
+#download-spotify {
+  background-color: rgb(25, 230, 140);
+  padding: 40px 15px 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#download-laptop {
+  width: 100%;
+}
+
+#download-img {
+  width: 136px;
+  margin-bottom: 40px;
+  margin-top: 64px;
+  position: relative;
+  max-width: 202px;
+  text-align: center;
+}
+
+#download-green-circle {
+  position: absolute;
+  width: 25%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#download-green-success {
+  position: absolute;
+  width: 8%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 100%;
+}
+
+#download-spotify > h1 {
+  font-family: "spotify-circular", Helvetica, Arial, sans-serif;
+  display: block;
+  padding: 0px 0px 0.67em;
+  padding-bottom: 0.67em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 40px;
+}
+
+#download-spotify > p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+#download-btn {
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 500px;
+  background-color: var(--background-base, #ffffff);
+  width: 165px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border-color 200ms ease-in 0s;
+}
+#download-btn:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+#download-btn > span {
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#download-plataforms-section {
+  padding: 70px 15px;
+}
+
+#download-plataforms {
+  margin: 0px auto;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#download-plataforms > h1 {
+  text-align: center;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  display: block;
+  padding: 0px 0px 0.75em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.25px;
+  line-height: 36px;
+}
+
+#download-plataforms > p {
+  padding: 0px 0px 1em;
+}
+
+#platform-links img {
+  height: 40px;
+  margin: 10px;
+}
+
+#download-all-devices-section {
+  background-color: rgb(34, 35, 38);
+  padding: 70px 15px 50px;
+}
+
+#download-all-devices {
+  margin: 0px auto;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#download-all-devices-img {
+  width: 100%;
+  width: 100%;
+  max-width: 560px;
+  margin-bottom: 20px;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: center;
+}
+#download-all-devices-img > img {
+  width: 100%;
+}
+#download-all-devices > h1 {
+  box-sizing: border-box;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  padding: 0px 0px 0.75em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: -0.25px;
+  line-height: 36px;
+  color: white;
+  text-align: center;
+}
+
+.download-plataforms-list {
+  list-style: none;
+  color: white;
+  text-align: center;
+}
+
+.download-plataforms-list > li {
+  padding-bottom: 1em;
+}
+
+.download-plataforms-list > li > a {
+  color: rgb(30, 215, 96);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#download-plataforms-all-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+@media (min-width: 768px) {
+  #download-spotify > h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  #download-all-devices > h1 {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+  }
+  .download-plataforms-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .download-plataforms-list li:not(:last-child)::after {
+    font-size: 12px;
+    content: "•";
+    padding-left: 14px;
+    padding-right: 14px;
+    color: rgb(29, 185, 84);
+  }
+  #download-plataforms-all-list {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 992px) {
+  #download-plataforms {
+    max-width: 970px;
+  }
+  #download {
+    top: 80px;
+  }
+  #download-spotify > h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+@media (min-width: 1200px) {
+  #download-plataforms {
+    max-width: 1170px;
+  }
+  #download-all-devices {
+    max-width: 1170px;
+  }
+  #download-plataforms-all-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .download-plataforms-list li:first-child::before {
+    font-size: 12px;
+    content: "•";
+    padding-left: 14px;
+    padding-right: 14px;
+    color: rgb(29, 185, 84);
+  }
+}
