@@ -7,7 +7,7 @@ export default function TopBar() {
     <div className="container fixed">
       <div id="top-bar" className="white">
         <div id="logo">
-          <Link to="./">
+          <Link to={process.env.PUBLIC_URL + "./"}>
             <span>
               <svg
                 viewBox="0 0 63 20"
@@ -22,9 +22,9 @@ export default function TopBar() {
           </Link>
         </div>
         <div id="top-bar-links">
-          <Link to="./premium"> Premium </Link>
-          <Link to="./support"> Suporte </Link>
-          <Link to="./download"> Baixar </Link>
+          <Link to={process.env.PUBLIC_URL + "/premium"}> Premium </Link>
+          <Link to={process.env.PUBLIC_URL + "./support"}> Suporte </Link>
+          <Link to={process.env.PUBLIC_URL + "./download"}> Baixar </Link>
           <div className="separator"></div>
           <a href="#">Inscrever-se </a>
           <a href="#">Entrar</a>

@@ -6,7 +6,7 @@ It was created using create-react-app with typescript and pure css.
 
 ## Preview
 
-- [Click here to preview](https://guilhermeg2k.github.io/spotify-clone/build/)
+- [Click here to preview](https://guilhermeg2k.github.io/spotify-clone/)
 
 ## How to run
 

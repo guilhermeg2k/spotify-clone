@@ -18,11 +18,11 @@ function Layout() {
   }
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
       <TopBar />
       <Switch>
-        <Route path="/">
+        <Route path="/" exact>
           <Home />
         </Route>
         <Route path="/premium">
