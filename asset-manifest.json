@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/build/static/css/main.78b963d5.chunk.css",
+    "main.js": "/build/static/js/main.bcaea490.chunk.js",
+    "main.js.map": "/build/static/js/main.bcaea490.chunk.js.map",
+    "runtime-main.js": "/build/static/js/runtime-main.cc79106e.js",
+    "runtime-main.js.map": "/build/static/js/runtime-main.cc79106e.js.map",
+    "static/js/2.f0859697.chunk.js": "/build/static/js/2.f0859697.chunk.js",
+    "static/js/2.f0859697.chunk.js.map": "/build/static/js/2.f0859697.chunk.js.map",
+    "index.html": "/build/index.html",
+    "static/css/main.78b963d5.chunk.css.map": "/build/static/css/main.78b963d5.chunk.css.map",
+    "static/js/2.f0859697.chunk.js.LICENSE.txt": "/build/static/js/2.f0859697.chunk.js.LICENSE.txt",
+    "static/media/all-devices.4b80c171.svg": "/build/static/media/all-devices.4b80c171.svg",
+    "static/media/ballons.fc8bbce5.png": "/build/static/media/ballons.fc8bbce5.png",
+    "static/media/green-circle.525ada57.svg": "/build/static/media/green-circle.525ada57.svg",
+    "static/media/green-success-check.d1115fa6.svg": "/build/static/media/green-success-check.d1115fa6.svg",
+    "static/media/laptop.0cb182e7.svg": "/build/static/media/laptop.0cb182e7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc79106e.js",
+    "static/js/2.f0859697.chunk.js",
+    "static/css/main.78b963d5.chunk.css",
+    "static/js/main.bcaea490.chunk.js"
+  ]
+}
