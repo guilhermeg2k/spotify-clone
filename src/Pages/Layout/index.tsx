@@ -22,7 +22,7 @@ function Layout() {
       <ScrollToTop />
       <TopBar />
       <Switch>
-        <Route path="/" exact>
+        <Route path="/">
           <Home />
         </Route>
         <Route path="/premium">
